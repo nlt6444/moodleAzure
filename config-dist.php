@@ -27,7 +27,7 @@
 //          http://www.gnu.org/copyleft/gpl.html                         //
 //                                                                       //
 ///////////////////////////////////////////////////////////////////////////
-unset($CFG);  // Ignore this line
+unset($CFG);  // Ignore this line test
 global $CFG;  // This is necessary here for PHPUnit execution
 $CFG = new stdClass();
 
